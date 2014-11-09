@@ -10,31 +10,31 @@
 	<string>CI_Test</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6F26CDA86B6B787E3AA89469077439CDD389E424</key>
-		<string>https://github.com/ddbien/CI_Git</string>
+		<key>19F7A46F4E2BC9A0F79E6B4A6203FFE07ED873BC</key>
+		<string>https://github.com/ddbien/IOS_GIT.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CI_Test/CI_Test.xcodeproj</string>
+	<string>CI_Test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6F26CDA86B6B787E3AA89469077439CDD389E424</key>
-		<string>../../..</string>
+		<key>19F7A46F4E2BC9A0F79E6B4A6203FFE07ED873BC</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ddbien/CI_Git</string>
+	<string>https://github.com/ddbien/IOS_GIT.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6F26CDA86B6B787E3AA89469077439CDD389E424</string>
+	<string>19F7A46F4E2BC9A0F79E6B4A6203FFE07ED873BC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6F26CDA86B6B787E3AA89469077439CDD389E424</string>
+			<string>19F7A46F4E2BC9A0F79E6B4A6203FFE07ED873BC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CI_Git</string>
+			<string>IOS_GIT</string>
 		</dict>
 	</array>
 </dict>
