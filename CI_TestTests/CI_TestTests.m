@@ -32,7 +32,7 @@
 
 - (void)testExample1 {
     // This is an example of a functional test case.
-    XCTAssert(true, @"Pass");
+    XCTAssert(false, @"Pass");
 }
 
 - (void)testExample2 {
