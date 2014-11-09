@@ -171,6 +171,7 @@
 				TargetAttributes = {
 					05FB14381A077CC000C05296 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = S64Q3RXYM7;
 					};
 					05FB14541A077CC000C05296 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -284,8 +285,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TMA Solutions Canada Ltd";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TMA Solutions Canada Ltd";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -305,7 +306,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "DFEB7A23-2360-4199-80AE-8E6BA460BC39";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -327,8 +328,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TMA Solutions Canada Ltd";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TMA Solutions Canada Ltd";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -341,7 +342,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "DFEB7A23-2360-4199-80AE-8E6BA460BC39";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -351,8 +352,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
 				INFOPLIST_FILE = CI_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,8 +366,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.tma.TmsPushNotification";
 				INFOPLIST_FILE = CI_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
