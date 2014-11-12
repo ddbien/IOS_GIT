@@ -149,6 +149,7 @@
 				05FB14511A077CC000C05296 /* Sources */,
 				05FB14521A077CC000C05296 /* Frameworks */,
 				05FB14531A077CC000C05296 /* Resources */,
+				A6DAAFAB1A13CD6700045E4A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -217,6 +218,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6DAAFAB1A13CD6700045E4A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05FB14351A077CC000C05296 /* Sources */ = {
