@@ -231,7 +231,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"";
+			shellScript = "# Run the unit tests in this test bundle.\nif [ -z \"${WANT_IOS_SIM}\" ]\nthen\n#   Running under Xcode\n\"${DEVELOPER_TOOLS_DIR}/RunUnitTests\"\nelse\n#   Running under xcodebuild, so use ios-sim installed from Homebrew into /usr/local/bin/ios-sim\nkillall -m -KILL \"iPhone Simulator\" || true\nour_test_bundle_path=$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\nour_env=(\"--setenv\" \"DYLD_INSERT_LIBRARIES=/../../Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection\")\nour_env=(\"${our_env[@]}\" \"--setenv\" \"XCInjectBundle=${our_test_bundle_path}\")\nour_env=(\"${our_env[@]}\" \"--setenv\" \"XCInjectBundleInto=${TEST_HOST}\")\nour_app_location=\"$(dirname \"${TEST_HOST}\")\"\n/usr/local/bin/ios-sim launch \"${our_app_location}\" \"${our_env[@]}\" --args -SenTest All \"${our_test_bundle_path}\" --exit\nkillall -m -KILL \"iPhone Simulator\" || true\nexit 0\nfi";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -411,8 +411,10 @@
 				);
 				INFOPLIST_FILE = CI_TestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CI_Test.app/CI_Test";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -430,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CI_Test.app/CI_Test";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
 			};
 			name = Release;
 		};
