@@ -27,17 +27,17 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    XCTAssert(false, @"Pass");
 }
 
 - (void)testExample1 {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    XCTAssert(false, @"Pass");
 }
 
 - (void)testExample2 {
     // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+    XCTAssert(false, @"Pass");
 }
 
 
